@@ -27,9 +27,4 @@ myButton.addEventListener('click', () => {
     const spanTitle = myName.value + theTitle();
     myTitle.textContent = spanTitle;
 
-
 });
-
-
-
-
