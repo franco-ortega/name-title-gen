@@ -1,0 +1,48 @@
+Name-Title-Generator
+
+
+TITLE IDEAS
+the Jewel of Many Shadows
+
+
+
+    <p>
+
+
+        <input type="text"
+           id="myText"> 
+  
+    <button type="button" 
+            onclick="myFunction()"> 
+      Try it 
+  </button> 
+  
+    <p id="demo"></p> 
+  
+
+    </p>
+
+
+
+
+
+
+        <input type="text"
+           id="myText"> 
+  
+    <button type="button" 
+            onclick="myFunction()"> 
+      Try it 
+  </button> 
+  
+    <p id="demo"></p> 
+  
+
+
+function myFunction() { 
+    var x =  
+        document.getElementById("myText").value; 
+    
+    document.getElementById( 
+      "demo").innerHTML = x; 
+}
