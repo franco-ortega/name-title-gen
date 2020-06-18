@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: silver;
     color: orange;
 }
 
@@ -16,7 +16,7 @@ p {
     color: tan;
     margin: 15px;
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 
