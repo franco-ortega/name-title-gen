@@ -1,6 +1,9 @@
 body {
     background-color: silver;
     color: orange;
+    text-align: center;
+    width: 500px;
+    margin: auto;
 }
 
 header {
@@ -16,13 +19,13 @@ p {
     color: tan;
     margin: 15px;
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 
 span {
-    background-color: gray;
-    color: pink;
+    background-color: silver;
+    color: purple;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -30,10 +33,11 @@ span {
 
 
 footer {
-    background-color: red;
-    color: white;
+    background-color: silver;
+    color: gold;
     padding: 2px;
     margin: 10px;
     width: 300px;
     text-align: center;
+    margin: auto;
 }

@@ -11,3 +11,14 @@ the Rainbow Shard Weaver
 the Moon Heart
 the Swift Leaper
 
+
+    <p>Level 1: What is your name? 
+        <br><input id="nameInput" placeholder="Enter name here"> 
+        <br><button id="titleButton">Press to Earn Your Title</button></p>
+        <br>
+        <span id ="congrats"></span>
+        <br>
+        <br>
+        <span id="titleField"></span>
+    </p>
+    <br>
