@@ -64,7 +64,7 @@ const theTitle2 = function titleMaker2() {
 myButton2.addEventListener('click', () => {
     const spanTitle2 = myName2.value + ' ' + theAdjective2() + ' ' + theTitle2();
     myTitle2.textContent = spanTitle2;
-    const spanCongrats2 = 'Congratulations!! I dub thee...'
+    const spanCongrats2 = 'Congratulations!!!! I dub thee...'
     myCongrats2.textContent = spanCongrats2;
 
 });

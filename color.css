@@ -1,9 +1,13 @@
 body {
-    background-color: silver;
-    color: orange;
+    background-color: lightsteelblue;
+    color: rebeccapurple;
     text-align: center;
-    width: 500px;
+    width: 600px;
     margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: thick;
+    font-family: fantasy, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -17,24 +21,30 @@ header {
 p {
     background-color: brown;
     color: tan;
-    margin: 15px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
 }
 
 
 span {
-    background-color: silver;
+    background-color: lightsteelblue;
     color: purple;
-    margin: 10px;
-    padding: 10px;
+    margin: 1px;
+    padding: 1px;
     text-align: center;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+#titleField2 {
+    color:blueviolet;
 }
 
 
 footer {
-    background-color: silver;
-    color: gold;
+    background-color: lightsteelblue;
+    color: rebeccapurple;
     padding: 2px;
     margin: 10px;
     width: 300px;
