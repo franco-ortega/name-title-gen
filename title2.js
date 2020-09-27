@@ -6,6 +6,8 @@ const myCongrats2 = document.getElementById('congrats2');
 
 const myButton2 = document.getElementById('titleButton2');
 
+const entryBoxArea = document.getElementById('entry-box-area');
+const nameTitleArea = document.getElementById('name-title-area');
 
 const theAdjective2 = function adjectiveMaker2() {
     const num1 = Math.floor(Math.random()*10+1);
@@ -61,10 +63,14 @@ const theTitle2 = function titleMaker2() {
     }
 }
 
+
 myButton2.addEventListener('click', () => {
     const spanTitle2 = myName2.value + ' ' + theAdjective2() + ' ' + theTitle2();
     myTitle2.textContent = spanTitle2;
     const spanCongrats2 = 'Congratulations!!!! I dub thee...'
     myCongrats2.textContent = spanCongrats2;
+    myName2.value = '';
 
+/*    entryBoxArea.style.display = 'none';
+*/
 });

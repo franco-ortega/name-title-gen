@@ -2,6 +2,7 @@ body {
     background-color: lightsteelblue;
     color: rebeccapurple;
     text-align: center;
+    height: 450px;
     width: 600px;
     margin: auto;
     margin-top: 10px;
@@ -24,6 +25,8 @@ p {
     margin: 5px;
     padding: 5px;
     text-align: center;
+    height: auto%;
+    width: auto;
 }
 
 
@@ -50,4 +53,17 @@ footer {
     width: 300px;
     text-align: center;
     margin: auto;
+
+}
+
+.button-enter-title {
+    background-color: rebeccapurple;
+    color: yellow;
+    font-family: fantasy, 'Times New Roman', Times, serif;
+}
+
+.button-try-again {
+    background-color: rebeccapurple;
+    color: yellow;
+    font-family: fantasy, 'Times New Roman', Times, serif;
 }
