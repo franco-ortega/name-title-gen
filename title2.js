@@ -1,11 +1,7 @@
 const myName2 = document.getElementById('nameInput2');
-
 const myTitle2 = document.getElementById('titleField2');
-
 const myCongrats2 = document.getElementById('congrats2');
-
 const myButton2 = document.getElementById('titleButton2');
-
 const entryBoxArea = document.getElementById('entry-box-area');
 const nameTitleArea = document.getElementById('name-title-area');
 
