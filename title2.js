@@ -1,11 +1,11 @@
-const myName2 = document.getElementById('nameInput2');
-const myTitle2 = document.getElementById('titleField2');
-const myCongrats2 = document.getElementById('congrats2');
-const myButton2 = document.getElementById('titleButton2');
+const myName = document.getElementById('name-input');
+const myTitle = document.getElementById('title-field');
+const myCongrats = document.getElementById('congrats');
+const myButton = document.getElementById('title-button');
 const entryBoxArea = document.getElementById('entry-box-area');
 const nameTitleArea = document.getElementById('name-title-area');
 
-const theAdjective2 = function adjectiveMaker2() {
+const theAdjective = function adjectiveMaker() {
     const num1 = Math.floor(Math.random()*10+1);
     console.log(num1);
 
@@ -32,7 +32,7 @@ const theAdjective2 = function adjectiveMaker2() {
     }
 }
 
-const theTitle2 = function titleMaker2() {
+const theTitle = function titleMaker() {
     const num2 = Math.floor(Math.random()*10+1);
     console.log(num2);
 
@@ -60,12 +60,12 @@ const theTitle2 = function titleMaker2() {
 }
 
 
-myButton2.addEventListener('click', () => {
-    const spanTitle2 = myName2.value + ' ' + theAdjective2() + ' ' + theTitle2();
-    myTitle2.textContent = spanTitle2;
-    const spanCongrats2 = 'Congratulations!!!! I dub thee...'
-    myCongrats2.textContent = spanCongrats2;
-    myName2.value = '';
+myButton.addEventListener('click', () => {
+    const spanTitle = myName.value + ' ' + theAdjective() + ' ' + theTitle();
+    myTitle.textContent = spanTitle;
+    const spanCongrats = 'Congratulations!!!! I dub thee...'
+    myCongrats.textContent = spanCongrats;
+    myName.value = '';
 
 /*    entryBoxArea.style.display = 'none';
 */
